@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 100vh;
+    background-color: black;
+}
+#display{
+    margin-bottom: 10px;
+    height: 35px;
+    width: 192px;
+}
+
+button{
+    width: 60px;
+    height: 35px;
+    margin: 1px;
+    text-align: center;
+    background-color: rgb(79, 79, 214);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
